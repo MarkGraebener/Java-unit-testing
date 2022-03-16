@@ -31,6 +31,9 @@ public class StudentTest
 //        assertSame("fer", this.names.get(0));
 //        assertSame("Zach", this.names.get(1));
 //    }
-
+    @Test
+    public void testIfNameIsInitialized(){
+        assertNotNull(this.name);
+    }
 
 }
